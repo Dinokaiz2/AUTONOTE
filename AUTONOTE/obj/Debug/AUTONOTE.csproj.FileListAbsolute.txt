@@ -1,0 +1,11 @@
+c:\users\kaiza_000\documents\visual studio 2015\Projects\AUTONOTE\AUTONOTE\bin\Debug\AUTONOTE.exe.config
+c:\users\kaiza_000\documents\visual studio 2015\Projects\AUTONOTE\AUTONOTE\bin\Debug\AUTONOTE.exe
+c:\users\kaiza_000\documents\visual studio 2015\Projects\AUTONOTE\AUTONOTE\bin\Debug\AUTONOTE.pdb
+c:\users\kaiza_000\documents\visual studio 2015\Projects\AUTONOTE\AUTONOTE\obj\Debug\AUTONOTE.csprojResolveAssemblyReference.cache
+c:\users\kaiza_000\documents\visual studio 2015\Projects\AUTONOTE\AUTONOTE\obj\Debug\AUTONOTE.ImageForm.resources
+c:\users\kaiza_000\documents\visual studio 2015\Projects\AUTONOTE\AUTONOTE\obj\Debug\AUTONOTE.Properties.Resources.resources
+c:\users\kaiza_000\documents\visual studio 2015\Projects\AUTONOTE\AUTONOTE\obj\Debug\AUTONOTE.SnipForm.resources
+c:\users\kaiza_000\documents\visual studio 2015\Projects\AUTONOTE\AUTONOTE\obj\Debug\AUTONOTE.StartForm.resources
+c:\users\kaiza_000\documents\visual studio 2015\Projects\AUTONOTE\AUTONOTE\obj\Debug\AUTONOTE.csproj.GenerateResource.Cache
+c:\users\kaiza_000\documents\visual studio 2015\Projects\AUTONOTE\AUTONOTE\obj\Debug\AUTONOTE.exe
+c:\users\kaiza_000\documents\visual studio 2015\Projects\AUTONOTE\AUTONOTE\obj\Debug\AUTONOTE.pdb
