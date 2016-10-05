@@ -1,8 +1,6 @@
-﻿using System;
-
-namespace AUTONOTE
+﻿namespace AUTONOTE
 {
-    partial class TextForm
+    partial class HelpForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,38 +26,36 @@ namespace AUTONOTE
         /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
         /// </summary>
-        private void InitializeComponent(string text)
+        private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.RichTextBox();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
-            // textBox1
+            // richTextBox1
             // 
-            Console.WriteLine(text);
-            this.textBox1.Location = new System.Drawing.Point(13, 13);
-            this.textBox1.Multiline = true;
-            this.textBox1.AcceptsTab = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(700, 236);
-            this.textBox1.TabIndex = 0;
-            this.textBox1.Text = text;
+            this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.richTextBox1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.richTextBox1.Location = new System.Drawing.Point(13, 13);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(259, 236);
+            this.richTextBox1.TabIndex = 0;
+            this.richTextBox1.Text = "";
+            this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
             // 
-            // TextForm
+            // HelpForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(725, 261);
-            this.Controls.Add(this.textBox1);
-            this.Name = "TextForm";
-            this.Text = "TextForm";
+            this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.richTextBox1);
+            this.Name = "HelpForm";
+            this.Text = "HelpForm";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.RichTextBox textBox1;
+        private System.Windows.Forms.RichTextBox richTextBox1;
     }
 }

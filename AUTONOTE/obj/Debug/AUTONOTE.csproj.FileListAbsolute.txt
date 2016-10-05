@@ -25,3 +25,4 @@ C:\Users\kaiza_000\Documents\Visual Studio 2015\Projects\AUTONOTE\AUTONOTE\bin\D
 C:\Users\kaiza_000\Documents\Visual Studio 2015\Projects\AUTONOTE\AUTONOTE\bin\Debug\tessdata\eng.cube.word-freq
 C:\Users\kaiza_000\Documents\Visual Studio 2015\Projects\AUTONOTE\AUTONOTE\bin\Debug\tessdata\eng.tesseract_cube.nn
 C:\Users\kaiza_000\Documents\Visual Studio 2015\Projects\AUTONOTE\AUTONOTE\bin\Debug\tessdata\eng.traineddata
+C:\Users\kaiza_000\Documents\Visual Studio 2015\Projects\AUTONOTE\AUTONOTE\obj\Debug\AUTONOTE.HelpForm.resources

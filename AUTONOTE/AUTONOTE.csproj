@@ -50,6 +50,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="HelpForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HelpForm.Designer.cs">
+      <DependentUpon>HelpForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="ImageForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,6 +83,9 @@
     <Compile Include="TextForm.Designer.cs">
       <DependentUpon>TextForm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="HelpForm.resx">
+      <DependentUpon>HelpForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ImageForm.resx">
       <DependentUpon>ImageForm.cs</DependentUpon>
     </EmbeddedResource>
