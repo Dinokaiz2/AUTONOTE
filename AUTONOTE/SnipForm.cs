@@ -55,7 +55,6 @@ namespace AUTONOTE
         protected override void OnMouseMove(MouseEventArgs e)
         {
             // Modify the selection on mouse move
-            Console.WriteLine(e.Button.ToString());
             if (!e.Button.ToString().Contains("Left")) return;
             int x1 = Math.Min(e.X, pntStart.X);
             int y1 = Math.Min(e.Y, pntStart.Y);
@@ -67,9 +66,7 @@ namespace AUTONOTE
         protected override void OnMouseUp(MouseEventArgs e)
         {
             // Complete the snip on mouse-up
-            Console.WriteLine("mouse oop");
             if (rcSelect.Width <= 0 || rcSelect.Height <= 0) return;
-            Console.WriteLine("moose still oop");
             Image = new Bitmap(rcSelect.Width, rcSelect.Height);
             using (Graphics gr = Graphics.FromImage(Image))
             {

@@ -21,7 +21,9 @@ namespace AUTONOTE
         {
             var bmp = SnipForm.Snip();
             ImageForm imageForm = new ImageForm(bmp);
+            TextForm textForm = new TextForm(bmp);
             imageForm.Show(this);
+            textForm.Show(this);
         }
     }
 }
