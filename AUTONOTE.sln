@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AUTONOTE", "AUTONOTE\AUTONO
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2C00774D-5521-439C-BA41-DA3AA3D05A07}"
 	ProjectSection(SolutionItems) = preProject
-		..\notautonot\README.txt = ..\notautonot\README.txt
+		..\notautonot\README.md = ..\notautonot\README.md
 	EndProjectSection
 EndProject
 Global
