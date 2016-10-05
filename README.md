@@ -8,6 +8,8 @@ This application's purpose is to create a "snip" of the screen -- a screenshot,
 but only a section of the screen rather than all of it -- and attempt to extract
 the text from the image.
 
+Tested on Windows 10. Only supports Windows machines, for now.
+
 ###Credits
 
 Credit for original Snipping Tool source code 

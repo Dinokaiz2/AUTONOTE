@@ -24,3 +24,4 @@ C:\Users\kaiza_000\Documents\Visual Studio 2015\Projects\AUTONOTE\AUTONOTE\obj\R
 C:\Users\kaiza_000\Documents\Visual Studio 2015\Projects\AUTONOTE\AUTONOTE\obj\Release\AUTONOTE.csproj.GenerateResource.Cache
 C:\Users\kaiza_000\Documents\Visual Studio 2015\Projects\AUTONOTE\AUTONOTE\obj\Release\AUTONOTE.exe
 C:\Users\kaiza_000\Documents\Visual Studio 2015\Projects\AUTONOTE\AUTONOTE\obj\Release\AUTONOTE.pdb
+C:\Users\kaiza_000\Documents\Visual Studio 2015\Projects\AUTONOTE\AUTONOTE\obj\Release\AUTONOTE.csprojResolveAssemblyReference.cache
