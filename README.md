@@ -20,4 +20,5 @@ OCR (Ocular Character Recognition) done using
 Hunger managment for the project 
 is attributed to Mark Young.
 
-- Kaiz
+
+Developed by Kaiz Akhtar
