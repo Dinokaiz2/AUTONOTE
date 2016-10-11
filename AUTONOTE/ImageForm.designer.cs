@@ -38,7 +38,6 @@ namespace AUTONOTE
             // 
             this.pictureBox1.Location = new System.Drawing.Point(12, 12);
             this.pictureBox1.Name = "pictureBox1";
-            //this.pictureBox1.Size = new System.Drawing.Size(260, 237);
             this.pictureBox1.Size = new System.Drawing.Size(img.Width, img.Height);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
@@ -52,7 +51,7 @@ namespace AUTONOTE
             this.ClientSize = new System.Drawing.Size(img.Width + 24, img.Height + 24);
             this.Controls.Add(this.pictureBox1);
             this.Name = "ImageForm";
-            this.Text = "ImageForm";
+            this.Text = "AUTONOTE - Image";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 

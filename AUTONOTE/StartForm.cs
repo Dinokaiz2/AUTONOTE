@@ -20,9 +20,7 @@ namespace AUTONOTE
         private void button1_Click(object sender, EventArgs e)
         {
             var bmp = SnipForm.Snip();
-            ImageForm imageForm = new ImageForm(bmp);
             TextForm textForm = new TextForm(bmp);
-            imageForm.Show(this);
             textForm.Show(this);
         }
 

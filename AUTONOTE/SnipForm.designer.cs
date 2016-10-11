@@ -36,7 +36,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
             this.Name = "SnipForm";
-            this.Text = "Form1";
+            this.Text = "AUTONOTE - Snip";
             this.ResumeLayout(false);
 
         }

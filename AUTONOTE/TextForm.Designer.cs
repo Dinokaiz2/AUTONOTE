@@ -31,11 +31,11 @@ namespace AUTONOTE
         private void InitializeComponent(string text)
         {
             this.textBox1 = new System.Windows.Forms.RichTextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // textBox1
             // 
-            Console.WriteLine(text);
             this.textBox1.Location = new System.Drawing.Point(13, 13);
             this.textBox1.Multiline = true;
             this.textBox1.AcceptsTab = true;
@@ -45,14 +45,25 @@ namespace AUTONOTE
             this.textBox1.TabIndex = 0;
             this.textBox1.Text = text;
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(12, 261);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(100, 23);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Display Image";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new EventHandler(this.button1_Click);
+            // 
             // TextForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(725, 261);
+            this.ClientSize = new System.Drawing.Size(725, 296);
             this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.button1);
             this.Name = "TextForm";
-            this.Text = "TextForm";
+            this.Text = "AUTONOTE - Text";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -61,5 +72,6 @@ namespace AUTONOTE
         #endregion
 
         private System.Windows.Forms.RichTextBox textBox1;
+        private System.Windows.Forms.Button button1;
     }
 }

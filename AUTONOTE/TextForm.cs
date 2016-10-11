@@ -12,11 +12,20 @@ namespace AUTONOTE
 {
     public partial class TextForm : Form
     {
+        Image image;
+
         public TextForm(Image img)
         {
+            image = img;
             if(!OCR.IsInited()) { OCR.Init(); }
             string text = OCR.ImageToText((Bitmap)img);
             InitializeComponent(text);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ImageForm imageForm = new ImageForm(image);
+            imageForm.Show();
         }
     }
 }
